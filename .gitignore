@@ -1,0 +1,40 @@
+#Ignore environment variables 
+.env
+
+#Ignore database
+confluence_data.db
+
+#Ignore all csv files and data
+confluence_articles.csv
+ngrok
+all_confluence_articles.csv
+all_confluence_articles_cleaned.csv
+assistant_test.py
+cleaned_confluence_data_2.csv
+slack_messages.csv
+test_data_con - Sheet1.csv
+vectorized_articles.csv
+
+#Ignore all pkl files
+tfidf_matrix.pkl
+tfidf_vectorizer.pkl
+
+#Ignore all independent scripts and files
+backup_processfile.py
+clean_chunks.py
+con_fetch_csv.py
+con_vectorize.py
+embeddings.py
+nlp_test.py
+openai_thread.json
+page_list.json
+slack_bot.log
+slack_fetch.py
+slack_msgs.py
+update_con.py
+
+#Ignore virtual environments and jupyter notebooks
+anaconda_projects
+.ipynb_checkpoints
+confluence
+.DS_Store
